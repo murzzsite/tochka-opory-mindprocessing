@@ -356,7 +356,7 @@ const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/ZWSAGXV8EL'
     } catch (err) {
       console.error(err);
       btn.textContent = 'Ошибка, попробуйте ещё раз';
-      if (status) status.textContent = 'Не удалось отправить. Напишите во ВКонтакте: vk.ru/tatyana_razbor';
+      if (status) status.textContent = 'Не удалось отправить. Позвоните +7 905 278-76-53 или напишите во ВКонтакте.';
     } finally {
       setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 3500);
     }
